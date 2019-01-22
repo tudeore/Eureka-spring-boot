@@ -1,0 +1,16 @@
+package com.webserver.eurekacontroller.resource;
+
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController("/hello")
+public class helloResource {
+
+	@GetMapping
+	public String helloWorld() {
+		
+		return "helloWorld";
+		
+	}
+	
+}

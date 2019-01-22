@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Eureka\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4288470743.index
+\hello-service\src\main\java
+C:\Eureka\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3345757364.index
+\hello-service\src\main\java
+C:\Eureka\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3251900850.index
+\eureka-client\src\main\java

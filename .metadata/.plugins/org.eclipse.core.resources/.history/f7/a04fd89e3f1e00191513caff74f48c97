@@ -1,0 +1,6 @@
+package com.webserver.eurekacontroller.resource;
+
+@RestController
+public class helloResource {
+
+}

@@ -1,0 +1,20 @@
+package com.cg.eurekaservice.hello;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+	@RestController("/hello")
+	public class HelloResource {
+
+		@GetMapping
+		public String helloWorld() {
+			
+			return "helloWorld";
+			
+		}
+		
+	}
+	
+	
+	
+}

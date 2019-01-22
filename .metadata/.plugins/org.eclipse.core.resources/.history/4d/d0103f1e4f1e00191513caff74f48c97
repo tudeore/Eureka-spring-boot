@@ -1,0 +1,17 @@
+package com.webserver.eurekacontroller.resource;
+
+@Controller
+public class helloResource {
+
+	@Autowired
+	private RestTemplate template;
+	
+	   @RequestMapping("/name")
+	   public ModelAndView home() {
+//		   String response = template.exchange("http://hello-service/hello",
+//                   HttpMethod.GET, null, new ParameterizedTypeReference<String>() {}).getBody();
+		   String responseOne = template.getForObject("http://hello-service/hello", String.class);
+		   
+		   return new ModelAndView("hello","message",responseOne);
+	   }
+}

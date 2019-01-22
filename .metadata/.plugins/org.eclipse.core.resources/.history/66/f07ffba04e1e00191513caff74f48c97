@@ -1,0 +1,5 @@
+eureka.client.serviceUrl.defaultZone  = http://localhost:8761/eureka
+spring.application.name = eurekaclient
+server.port=9898
+spring.mvc.view.prefix=/WEB-INF/JSP
+spring.mvc.view.suffix=.jsp
